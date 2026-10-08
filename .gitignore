@@ -14,3 +14,7 @@ dist/
 
 # VS Code
 .vscode/
+
+# Cloudflare / TanStack generated files
+.tanstack/
+.wrangler/
