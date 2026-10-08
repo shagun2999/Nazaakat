@@ -11,6 +11,6 @@ export default defineConfig({
     tanstackRouter(),
     tanstackStart(),
     react(),
-    cloudflare(),
+    cloudflare({ viteEnvironment: { name: 'ssr' } }),
   ],
 })
