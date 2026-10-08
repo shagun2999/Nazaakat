@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Local Netlify folder
+.netlify/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Vite
+dist/
+
+# VS Code
+.vscode/
